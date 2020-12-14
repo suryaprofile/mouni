@@ -1,0 +1,333 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navbar-default .navbar-nav>li>a:hover, .text-theme, a, a:hover {
+	color: #c03c37
+}
+.lead, body {
+	line-height: 24px
+}
+@font-face {
+	font-family: AcariSans-Regular;
+	src: url(fonts/font.css)
+}
+@font-face {
+	font-family: AcariSans-Bold;
+	src: url(fonts/AcariSans/AcariSans-Bold.ttf)
+}
+body {
+	font-family: AcariSans-Regular, sans-serif;
+	padding-top: 51px;
+	font-size: 18px
+}
+b, h1, h2, h3, h4, h5, h6, strong {
+	font-family: AcariSans-Bold, sans-serif;
+	font-weight: 600
+}
+.h3, h3 {
+	font-size: 30px
+}
+.h4, h4 {
+	font-size: 24px
+}
+.btn-danger {
+	background-color: #c03c37
+}
+.carousel-control {
+	width: 50px;
+	background: 0 0!important
+}
+.navbar {
+	margin-bottom: 0;
+	background-color: #fff
+}
+.copyright, .footer-top {
+	background-color: #c03c37
+}
+.navbar-brand {
+	padding: 5px 15px
+}
+.navbar-brand img {
+	height: 40px
+}
+.navbar-default .navbar-nav>li>a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 700
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background-color: #c03c37;
+	color: #fff
+}
+.footer {
+	color: #fff
+}
+.footer-top {
+	padding-top: 30px
+}
+.footer a {
+	color: rgba(255,255,255,.8)
+}
+.footer a:hover {
+	color: #fff
+}
+.copyright {
+	color: #FFF;
+	padding-top: 20px;
+	padding-bottom: 10px
+}
+.sp {
+	padding: 60px 0;
+	position: relative
+}
+.sp .ssplit {
+	position: absolute;
+	top: -12px;
+	left: 50%;
+	margin-left: -12px;
+	height: 24px
+}
+.lead {
+	font-size: 20px;
+	font-weight: 400
+}
+.tlight {
+	background-color: #f5f5f5
+}
+.twhite {
+	background-color: #fff
+}
+.tdark {
+	background-color: #666;
+	color: #fff
+}
+.tdark .text-muted {
+	color: rgba(255,255,255,.7)
+}
+.tprimary, button.tprimary:active, button.tprimary:focus, button.tprimary:hover {
+	background-color: #c03c37;
+	color: #fff
+}
+.tprimary2 {
+	background-color: #933;
+	color: #fff
+}
+.text-muted {
+	color: #666
+}
+.text-danger {
+	color: #933
+}
+.page-title, .profile .title {
+	color: #fff;
+	text-align: center
+}
+.col-sm {
+	padding: 0 15px
+}
+.page-title {
+	background-color: #c03c37;
+	padding: 120px 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-size: 24px;
+	line-height: 28px
+}
+.lsmall h4 {
+	margin-top: 0
+}
+.lsmall .col-xs-4 {
+	padding-bottom: 10px
+}
+.review {
+	display: block;
+	font-size: 24px;
+	margin-bottom: 10px
+}
+.owl-carousel .owl-item img {
+	width: auto;
+	max-width: 100%
+}
+.owl-theme .owl-nav.disabled+.owl-dots {
+	margin-top: 40px
+}
+.profile {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px
+}
+.profile .info {
+	padding: 15px;
+	position: relative;
+	text-align: center
+}
+.profile .title {
+	position: absolute;
+	top: -25px;
+	background: #c03c37;
+	padding: 5px 10px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: 700;
+	left: 50px;
+	right: 50px
+}
+.usecases {
+	padding-left: 20px;
+	margin: 20px 0
+}
+.clients .col-sm-4, .feature {
+	padding: 15px
+}
+.usecases>li {
+	margin-bottom: 10px
+}
+.usecase li {
+	margin-bottom: 5px
+}
+.usecase li:before {
+	font-family: FontAwesome;
+	font-weight: 900;
+	content: "\f00c";
+	color: #c03c37;
+	display: inline-block;
+	margin-right: 10px
+}
+.social li a {
+	display: inline-block;
+	border: 1px solid rgba(255,255,255,.7);
+	border-radius: 4px;
+	width: 24px;
+	height: 24px;
+	line-height: 24px
+}
+.social li a:hover {
+	background-color: #c03c37;
+	color: #fff
+}
+.nav-pills.nav-stacked>li+li {
+	margin-top: 0
+}
+.nav-pills.nav-stacked>li>a, .nav-pills.nav-stacked>li>a:focus, .nav-pills.nav-stacked>li>a:hover {
+	background-color: transparent;
+	border-radius: 0;
+	border-left: 1px solid #ccc;
+	font-size: 18px
+}
+.nav-pills.nav-stacked>li.active>a, .nav-pills.nav-stacked>li.active>a:focus, .nav-pills.nav-stacked>li.active>a:hover {
+	color: #000;
+	background-color: transparent;
+	font-weight: 700;
+	border-radius: 0;
+	border-left: 1px solid #c03c37
+}
+#clientsModal .modal-content {
+	font-size: 16px
+}
+.feature {
+	border: 1px dotted #ccc;
+	border-radius: 15px;
+	min-height: 177px;
+	margin-bottom: 15px
+}
+.sitemap li, .sitemap li ul {
+	margin-top: 10px
+}
+.panel-title {
+	font-size: 20px
+}
+.btn-outline {
+	color: #000;
+	text-transform: uppercase;
+	border-color: #000;
+	font-weight: 700;
+	font-size: 10px;
+	padding: 5px 10px
+}
+.btn-outline:focus, .btn-outline:hover {
+	background-color: transparent;
+	border-color: #000;
+	color: #000
+}
+.carousel-control.left, .carousel-control.right {
+	background-image: none
+}
+#carousel-home .item {
+	padding: 10px 30px;
+	background: bottom center no-repeat;
+	background-size: cover
+}
+#carousel-home .item h2 {
+	font-size: 16px;
+	line-height: 20px;
+	margin: 5px 0;
+	font-weight: 700
+}
+#carousel-home .item p {
+	font-size: 11px;
+	line-height: 16px;
+	color: #666;
+	margin: 0 0 5px;
+	max-width: 160px
+}
+.slide_0 {
+	background-image: url(images/banner1.jpg)!important
+}
+.slide_1 {
+	background-image: url(images/banner2.jpg)!important
+}
+.slide_2 {
+	background-image: url(images/banner3.jpg)!important
+}
+.slide_3 {
+	background-image: url(images/banner4.jpg)!important
+}
+@media only screen and (min-width:768px) {
+.colsm5 .col-sm {
+	float: left;
+	width: 20%
+}
+.middle {
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+.br {
+	border-right: 2px solid #ccc
+}
+#carousel-home .item {
+	background-size: cover;
+	min-height: 713px;
+	padding-top: 120px
+}
+#carousel-home .item h2 {
+	font-size: 40px;
+	line-height: 50px;
+	margin: 0 0 20px
+}
+#carousel-home .item p {
+	font-size: 20px;
+	line-height: 24px;
+	margin: 0 0 40px;
+	max-width: 500px
+}
+.btn-outline {
+	padding: 20px 30px;
+	font-size: 20px;
+	line-height: 20px
+}
+}
+@media only screen and (max-width:768px) {
+.copyright .col-sm-6 {
+	text-align: center!important
+}
+}
+.contact-link, .request-a-demo-link, .submit-query-link {
+	display: none!important
+}
+@media (min-width:481px) {
+.happy-to-connect {
+	width: 50%
+}
+}

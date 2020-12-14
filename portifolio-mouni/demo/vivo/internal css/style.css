@@ -1,0 +1,286 @@
+@charset "utf-8";
+.navbar-default .navbar-nav>li>a {
+	/* color: #777; */
+	color: #ffffff;
+	font-size: 16px;
+    padding-left: 30px;
+	margin-top:2px;
+}
+.navbar-default left {
+	padding-left:40px;
+}
+
+
+	
+a:hover {
+	text-decoration: none;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	/* color: #777; */
+	color: #666;
+}
+.footer .ul>li>a:hover {
+	color: #00f;
+}
+
+ .ft1 p{
+padding-bottom:30px; 
+color:#666; 
+font-size:15px;
+}
+ .ft1  li{
+padding-bottom:15px;
+list-style:none;
+
+}
+ .ft1  a{
+color:#b2b2b2;
+ }
+ 
+ 
+ .ft2 p{
+padding-bottom:30px; 
+color:#666; 
+font-size:17px;
+}
+ .ft2  li{
+padding-bottom:15px;
+list-style:none;
+
+}
+ .ft2  a{
+color:#456fff;
+list-style:none;
+ }
+ .ft3 a {
+	 color:#666; 
+ }
+ 
+#nav_bar ul li a.active-page
+{
+  background-color:blue;
+}
+.navbar-header a {
+	background: ;
+}
+
+.navbar .nav > li.dropdown.open.active > a:hover, 
+.navbar .nav > li.dropdown.open > a
+{
+   color: #fff;
+   background-color: #000;
+   border-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+ }
+
+
+
+
+	.pro {
+		    background: #f6f6f6;
+	}
+	.pro .container{
+		background:#fff;
+		
+	}
+.pro .p1 ul {	
+	 list-style:none;  font-size:17px; padding-top:20px; font-weight:540;
+}
+.pro .p1 ul  a {
+	color:#000;
+	padding-left:50px;
+	
+}
+
+.pro .p2  a{
+	 color:#777; font-size:15px; padding-left:40px; line-height:2;
+	
+}
+.pro .p3 img{
+padding-top:70px;
+}
+
+
+ .p4 {
+	padding-top:70px;
+} 
+ .p4 img{
+	padding-top: 70px;
+} 
+.p4 h4 {
+font-size:43px; font-family:Calibri; color:#333; text-align:center;
+padding-top:150px;
+}
+.p4 p {	
+	font-size: 34px;
+    color: #333;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.p4 a {
+		  text-align: center;
+		  font-size: 24px;
+	}
+	 
+
+
+
+
+
+
+.estore {
+	position: relative;
+}
+.estore1 {
+	position: absolute;
+	font-size: 18px;
+	font-family: auto;
+	color: #fff;
+	margin-left: 0;
+	margin-top: -545px;
+}
+.support {
+	position: relative;
+}
+.support1 {
+position: absolute;
+    font-family: auto;
+    color: #fff;
+    margin-left: 780px;
+    margin-top: -331px;
+}
+
+
+::placeholder {
+  color: #ccc;
+  font-size:20px; 
+}
+input:focus {
+	outline:none;
+}
+.support2 {
+position: absolute;
+    font-family: auto;
+    color: #fff;
+    margin-left: 650px;
+    margin-top: -246px;
+}
+.support3 {
+position: absolute;
+    font-family: auto;
+    color: #fff;
+        margin-left: 1180px;
+    margin-top: -226px;
+}
+.support4 {
+position: absolute;
+    font-family: auto;
+    color: #fff;
+        margin-left: 667px;;
+    margin-top: -166px;
+}
+.about1 {
+	position:relative;
+}
+.about2 {
+	    position: absolute;
+    font-size: 48px;
+    margin-left: 349px;
+    margin-top: -283px;
+}
+.about3 {
+
+ margin-left: 353px;
+    margin-top: -195px;
+    font-size: 28px;
+    position: absolute;
+}
+.about4 { 
+	 border-radius: 25px;
+     background: #456fff;
+  width: 200px;
+  height: 45px;
+	position:absolute;
+	margin-left:-1550px;
+	margin-top:352px;
+	font-size:18px;
+	border:1px solid #456fff;
+	color:#fff;
+	text-align:center;
+	vertical-align:middle;
+}
+.about5 {
+	position:relative;
+}
+.about6 {
+	position: absolute;
+    margin-left: 568px;
+    margin-top: -326px;
+    font-size: 28px;
+
+}
+.about7 {
+	    position: absolute;
+    margin-left: 409px;
+    margin-top: -273px;
+    font-size: 18px;
+    color: #9c9e9c;
+
+}
+.about8 {
+position: absolute;
+    margin-left: 608px;
+    margin-top: -243px;
+    font-size: 18px;
+    color: #9c9e9c;
+
+}
+.about9 {
+	    position: absolute;
+    margin-left: 594px;
+    margin-top: -150px;
+    font-size: 18px;
+    color: #456fff;
+}
+.about10 {
+	position:relative;
+}
+.about11 {
+	position:absolute;
+	margin-left: 1130px;
+    margin-top: -326px;
+	font-size:28px;
+}
+.about12 {
+	position:absolute;
+	margin-left: 1048px;
+    margin-top: -273px;
+	font-size:18px;
+	color:#9c9e9c;
+}
+.about13 {
+	position:absolute;
+	margin-left: 1088px;
+    margin-top: -243px;
+	font-size:18px;
+	color:#9c9e9c;
+}
+.about14 {
+	position:absolute;
+	margin-left: 1221px;
+    margin-top: -150px;
+	font-size:18px;
+	color:#456fff;
+}
+.zoom {
+  transition: transform .2s; /* Animation */
+ 
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}

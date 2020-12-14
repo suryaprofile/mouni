@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>surya projects</title>
+<!-- TemplateEndEditable -->
+<link href="../libs/bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css"  rel="stylesheet">
+<link href="../style.css" rel="stylesheet">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+<nav class="navbar navbar-inverse" style="color:#cbc9ca; margin-bottom:0; border:0; border-radius:0;">
+  <div class="container-fluid"> 
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+     
+    </div>
+      <!--  <a class="navbar-brand" href="#">Brand</a>--> 
+    
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="myNavbar" style="color:#fff;">
+      <ul class="nav navbar-nav" style="color:#fff;">
+        <li><a href="#">Photos <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Illustrations</a></li>
+        
+        <li><a href="#">Vectors</a></li>
+        <li><a href="#">Videos</a></li>
+        <li><a href="#">Templates</a></li>
+        <li><a href="#">3D</a></li>
+        <li><a href="#">Premium</a></li>
+        <li><a href="#">Editorial</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Sales: 888-649-2990</a></li>
+        <li><a href="#"><img src="../img/nav/sell1.png"> Sell </a></li>
+        <li><a href="#"><img src="../img/nav/2.png"> Pricing</a></li>
+        <li><a href="#">Signin</a></li>
+        <li><a href="#"><img src="../img/nav/3.png"></a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse --> 
+  </div>
+  <!-- /.container-fluid --> 
+</nav>
+
+<!-- TemplateBeginEditable name="content" -->
+
+
+
+<!-- TemplateEndEditable -->
+
+
+
+
+
+
+<section class="tempfot">
+  <div class="container" style="padding-top:30px;">
+    <p style="color:#FFF;"> Search smarter </p>
+    <p style="color:#FFF; font-style:italic; padding-bottom:20px;"> Check out these popular categories. </p>
+    <div class="row">
+      <div class="col-lg-3 col-sm-6">
+        <ul class="list-unstyled fot" >
+          <li> <a href="#"> Animal </a></li>
+          <li> <a href="#">Drinks </a></li>
+          <li> <a href="#">Food </a></li>
+          <li> <a href="#">Industry </a></li>
+          <li> <a href="#">People </a></li>
+          <li> <a href="#"> Science </a></li>
+          <li> <a href="#">Technology </a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <ul class="list-unstyled fot">
+          <li> <a href="#"> Buildings and Architecture </a></li>
+          <li> <a href="#"> The Environment </a></li>
+          <li> <a href="#"> Graphic Resources </a></li>
+          <li> <a href="#">Landscapes </a></li>
+          <li> <a href="#"> Plants and Flowers </a></li>
+          <li> <a href="#"> Social Issues </a></li>
+          <li> <a href="#">Entertainment </a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6">
+        <ul class="list-unstyled fot">
+          <li> <a href="#"> Business </a></li>
+          <li> <a href="#"> States of Mind </a></li>
+          <li> <a href="#"> Hobbies and Leisure </a></li>
+          <li> <a href="#">Lifestyle </a></li>
+          <li> <a href="#"> Culture and Religion </a></li>
+          <li> <a href="#"> Sports </a></li>
+          <li> <a href="#"> Travel </a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-sm-6 text-center" style="border-left: 1px solid #ccc;"> <img src="../img/footer.png" class="img-responsive center-block" style="height:48px">
+        <p style="color:#FFF; padding-top:20px;"> Beautiful fonts, anywhere you need them. Find great type for web, print, and beyond with Adobe Fonts. </p>
+        <button type="button" class="btn learn"> Learn more </button>
+      </div>
+    </div>
+  </div>
+</section>
+<section style="background-color:#222;">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <ul class="list-inline fot">
+          <li> <a href="#"> Change </a></li>
+          <li><a href="#">region</a></li>
+          <li><a href="#">License terms</a></li>
+          <li> <a href="#">Learn & SupportBlog</a></li>
+          <li> <a href="#">Company</a></li>
+          <li><a href="#">Sell Images </a></li>
+          <li><a href="#">Enterprise</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-6 col-sm-12">
+        <ul class="list-inline fot" style="float:right">
+          <li><a href="#">© 2020 Adobe.</a></li>
+          <li><a href="#">All rights reserved.</a></li>
+          <li><a href="#"> Privacy</a></li>
+          <li> <a href="#">Terms of Use</a> </li>
+          <li><a href="#"> Cookies</a> </li>
+          <li><a href="#"> AdChoices</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<script src="../libs/jquery.min.js"></script> 
+<script src="../libs/bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js">
+</script>
+<!-- TemplateBeginEditable name="footer" -->
+
+
+
+<!-- TemplateEndEditable -->
+
+</body>
+</html>

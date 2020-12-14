@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bline:hover {
+	border-bottom:2px solid#00F;
+
+}

@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<title>Manch-home</title>
+
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+ 
+  <link rel="stylesheet" href="lib/animation/aos.css">
+  <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+ <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle
+            navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
+            class="icon-bar"></span> </button>
+        <a class="navbar-brand" href="./"><img src="images/logo.png" alt=""></a> </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./">Home</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">Why Manch</a></li>
+              <li><a href="clients.html">Partner Profile</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+              aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="esign.html">eSign</a></li>
+              <li><a href="digital-onboarding.html">Digital Onboarding</a></li>
+              <li><a href="ekyc.html">eKYC</a></li>
+              <li><a href="video-kyc.html">Video KYC</a></li>
+              <li><a href="partner-life-cycle-management.html">Partner Life Cycle Management</a></li>
+              <li><a href="application-programming-interface.html">Application Programming Interface</a></li>
+            </ul>
+          </li>
+          <li class="request-a-demo-link"><a href="request-a-demo.html">Request a Demo</a></li>
+          <li><a href="/login/">Log In</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+   <main class="main">
+    <div id="carousel-home" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators hide">
+        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-home" data-slide-to="1"></li>
+        <li data-target="#carousel-home" data-slide-to="2"></li>
+        <li data-target="#carousel-home" data-slide-to="3"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+        <div class="item active slide_0">
+          <div class="container">
+            <h2> Think <span class="text-danger"> Digital </span> <br>
+              Think <span class="text-danger">Manch! </span></h2>
+            <p> Collaborative Workflow-Driven Digital Transformation Platform </p>
+            <p>
+              <button type="button" class="btn btn-default btn-outline request-a-demo-link" data-toggle="modal" data-target="#demoModal">
+                Request a Demo</button>
+            </p>
+          </div>
+        </div>
+        <div class="item slide_1">
+          <div class="container">
+            <h2> Simplifying <span class="text-danger">Business </span> <br>
+              Simplifying <span class="text-danger">Lives </span> </h2>
+            <p>Advanced eSign Platform </p>
+            <p>
+              <button type="button" class="btn btn-default btn-outline request-a-demo-link" data-toggle="modal" data-target="#demoModal">
+                Request a Demo</button>
+            </p>
+          </div>
+        </div>
+        <div class="item slide_2">
+          <div class="container">
+            <h2> Bringing <br>
+              Businesses <span class="text-danger">Together</span> </h2>
+            <p> Secure &amp; Faster KYC </p>
+            <p>
+              <button type="button" class="btn btn-default btn-outline request-a-demo-link" data-toggle="modal" data-target="#demoModal">
+                Request a Demo</button>
+            </p>
+          </div>
+        </div>
+        <div class="item slide_3">
+          <div class="container">
+            <h2> Empowering Digital <br>
+              <span class="text-danger"> Transformation </span></h2>
+            <p> Partner Lifecycle Management </p>
+            <p>
+              <button type="button" class="btn btn-default btn-outline request-a-demo-link" data-toggle="modal" data-target="#demoModal">
+                Request a Demo</button>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-home" role="button" data-slide="prev"> <span
+          class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+      <a class="right carousel-control" href="#carousel-home" role="button" data-slide="next"> <span
+          class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+    </div>
+    
+     <section>
+      <div class="container">
+        <div class="row middle" style="font-size:16px; font-weight:bold;">
+          <div class="col-sm-4 tlight text-center" style="padding:15px 0;">
+            <div style="padding: 15px;">
+              <h2><span class="counter">5,00,000</span>+</h2>
+              <p class="text-muted">eSigns Processed</p>
+            </div>
+            <div style="padding: 15px;">
+              <h2><span class="counter">10,00,000</span>+</h2>
+              <p class="text-muted">Documents Processed</p>
+            </div>
+            <div style="padding: 15px;">
+              <h2><span class="counter">2,00,000</span>+</h2>
+              <p class="text-muted">Businesses Onboarded</p>
+            </div>
+            <div style="padding: 15px;">
+              <h2><span class="counter">1,000,000</span>+</h2>
+              <p class="text-muted">KYC Done</p>
+            </div>
+          </div>
+          <div class="col-sm-8 twhite" style="padding:60px 0;">
+            <div class="text-center">
+              <div>
+                <h2>Bringing Digital <span class="text-theme">To Life</span></h2>
+                <p class="text-muted lead" style="margin-bottom: 60px;">Hear from our Partners</p>
+              </div>
+              <div class="row clients" id="clients">
+                <div class="col-sm-4"> <img src="images/swiggy.png" class="img-responsive center-block" alt=""> </div>
+                <div class="col-sm-4"> <img src="images/mi.png" class="img-responsive center-block" alt=""> </div>
+                <div class="col-sm-4"> <img src="images/dunzo.png" class="img-responsive center-block" alt=""> </div>
+                <div class="col-sm-4"> <a href="#" data-title="Karvy"><img src="images/karvy.png"
+                      class="img-responsive center-block" alt=""></a></div>
+                <div class="col-sm-4"> <a href="#" data-title="Coworks"><img src="images/coworks.png"
+                      class="img-responsive center-block" alt=""></a> </div>
+                <div class="col-sm-4"> <a href="#" data-title="Ezetap"><img src="images/ezetap.png"
+                      class="img-responsive center-block" alt=""></a></div>
+                <div class="col-sm-4"> <img src="images/superseva.png" class="img-responsive center-block" alt="">
+                </div>
+                <div class="col-sm-4"> <a href="#" data-title="TMI"><img src="images/tmi-netwrok.png"
+                      class="img-responsive center-block" alt=""></a></div>
+                <div class="col-sm-4"> <img src="images/netambit.png" class="img-responsive center-block" alt=""> </div>
+                <div class="col-sm-4"> <a href="#" data-title="Oxigen"><img src="images/oxigen.png"
+                      class="img-responsive center-block" alt=""></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section class="sp">
+      <div class="container">
+        <div class="text-center" data-aos="fade-up" data-aos-duration="2000">
+          <h2>Digital is the <span class="text-theme">New Normal</span></h2>
+          <p class="text-muted lead" style="margin-bottom: 60px;">We Connect, We Process, We Manage</p>
+        </div>
+        <div class="row">
+          <div class="col-sm-4">
+            <ul class="nav nav-pills nav-stacked" role="tablist">
+              <li role="presentation" class="active"><a href="#deployment" aria-controls="deployment" role="tab"
+                  data-toggle="tab">Deployment</a></li>
+              <li role="presentation"><a href="#multipleaccesspoints" aria-controls="multipleaccesspoints" role="tab"
+                  data-toggle="tab">Multiple Access Points</a></li>
+              <li role="presentation"><a href="#onestopshop" aria-controls="onestopshop" role="tab"
+                  data-toggle="tab">One Stop Shop</a></li>
+              <li role="presentation"><a href="#security" aria-controls="security" role="tab"
+                  data-toggle="tab">Security</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-8">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane active" id="deployment">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>SaaS</h4>
+                    <p>Pre-configured Software as a Service Platform to help you go live in minutes</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Self-Service Support</h4>
+                    <p>A self-service platform to manage activities on your own</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Multi-Cloud Support</h4>
+                    <p>Comes with Quick Deployment feature on a private cloud</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Certified</h4>
+                    <p>Certified platform to carry out Aadhaar eSign</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Device Agnostic Solution</h4>
+                    <p>Device Compatibility & easy access by clicking on the smart link received in SMS/email or login
+                      to portal to access the information</p>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="multipleaccesspoints">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>API Support</h4>
+                    <p>Public API to help integrate with 3rd party systems</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Portal</h4>
+                    <p>Access to portal to initiate, monitor, manage the transactions</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Bulk Processing</h4>
+                    <p>XLS/CSV upload support to bulk process the transactions</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>Customized Landing Page</h4>
+                    <p>Customized pages to meet the brand requirements</p>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="onestopshop">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>No Coding Setup</h4>
+                    <p>Define Requirement - Configure Product - Certify - Go-Live </p>
+                    <h4 style="margin-top: 20px;">Video KYC</h4>
+                    <p>Agent assisted Video KYC (V-CIP) to help contactless customer identification</p>
+                    <h4 style="margin-top: 20px;">Document Management</h4>
+                    <p>Industry agnostics way to manage documents required to simplify business process</p>
+                    <h4 style="margin-top: 20px;">Open APIs</h4>
+                    <p>Ready to use open APIs for various business requirement including APIs to manage partner
+                      lifecycle</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>eKYC</h4>
+                    <p>Advanced digital KYC that saves time, cost, and helps prevent business frauds</p>
+                    <h4 style="margin-top: 20px;">eSign</h4>
+                    <p>An easy & digital way of operating businesses through support from Aadhaar & other well
+                      established methods</p>
+                    <h4 style="margin-top: 20px;">Compliance &amp; Audit </h4>
+                    <p>Information at the fingertip & inbuilt checks to meet compliance and audit requirements</p>
+                  </div>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane" id="security">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Multi-level authentication</h4>
+                    <p>Secure access to the transaction by defining additional authentication</p>
+                  </div>
+                  <div class="col-sm-6">
+                    <h4>End to end security</h4>
+                    <p>Security built to protect data & documents in transit and data as well as documents in rest</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <h4>Certified Platform</h4>
+                    <p>Certified Platform by the ESP (eSign Service Provider) to carry out Aadhaar based eSign</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="images/info-1.jpg" alt="" class="img-responsive center-block" style="margin-top: 50px;">
+      </div>
+    </section>
+    
+      <section class="sp twhite">
+      <div class="container">
+        <div class="text-center" style="margin-bottom:40px;" data-aos="fade-up" data-aos-duration="2000">
+          <h2>Industries We <span class="text-theme">Serve</span></h2>
+          <p class="lead">Trusted by Industry Leaders</p>
+        </div>
+        <div class="owl-carousel owl-theme" id="industry">
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/bfsi.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">BFSI</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/fintech.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Fintech</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/payments.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Payments</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/eCommerce.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">eCommerce</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/cowroking.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Co-Working</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/mobilemanufacture.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Mobile Manufacturer</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/hr-management.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">HR Management</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/facilities_management.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Facilities Management</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/healthcare.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">Healthcare</p>
+          </div>
+          <div class="item" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+            <p><img src="images/bpotelephone.jpg" alt="" class="img-responsive center-block"></p>
+            <p class="text-muted">BPO and Telephony</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sp tdark">
+      <div class="container text-center">
+        <p class="review">Let Us Redefine Digital Transformation for India</p>
+      </div>
+    </section>
+    
+     <section class="sp">
+      <div class="container text-center">
+        <h3 class="text-center" style="margin-bottom:30px;">We are Happy to <span class="text-theme">Connect</span></h3>
+        <div class="row">
+          <div class="happy-to-connect col-sm-4 col-md-4" style="padding: 15px;">
+            <p><img src="images/location.png" alt="" class="img-responsive center-block"></p>
+            <h4>Visit Us</h4>
+            <p class="text-muted"><strong>MANCH TECHNOLOGIES PVT. LTD.</strong><br>
+              # 441 NGEF Layout, Railway Parallel Road, Sadanandnagar,<br>
+              Bangalore - 560 038 Karnataka, India</p>
+          </div>
+          <div class="happy-to-connect col-sm-4 col-md-4" style="padding: 15px;">
+            <p><img src="images/mail.png" alt="" class="img-responsive center-block"></p>
+            <h4>Email Us</h4>
+            <p class="text-muted">info@manchtech.com<br>
+              support@manchtech.com</p>
+          </div>
+          <!--      <div class="clearfix visible-sm-block"></div>-->
+          <div class="col-sm-4 col-md-4 submit-query-link" style="padding: 15px;">
+            <p><img src="images/support.png" alt="" class="img-responsive center-block"></p>
+            <h4><a href="contact.html">Submit Query</a></h4>
+            <p class="text-muted">Fill up our enquiry form and our manager will be there to assist you!</p>
+          </div>
+          <!--<div class="col-sm-6 col-md-3" style="padding: 15px;">
+        <h4>Existing Customer</h4>
+        <p class="text-muted">Raise a ticket to help us help you!</p>
+      </div>-->
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <section class="footer-top">
+      <div class="container">
+        <p class="text-center"><strong>Come and experience MANCH's power in the journey towards digital
+            transformation</strong></p>
+        <div class="row widgets" style="margin-top:30px;">
+          <div class="col-xs-6 col-sm-4">
+            <p><strong>About</strong></p>
+            <ul class="list-unstyled">
+              <li><a href="about.html">Why Manch</a></li>
+              <li><a href="clients.html">Partner Profile</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-6 col-sm-4">
+            <p><strong>Products</strong></p>
+            <ul class="list-unstyled">
+              <li><a href="esign.html">eSign</a></li>
+              <li><a href="digital-onboarding.html">Digital Onboarding</a></li>
+              <li><a href="ekyc.html">eKYC</a></li>
+              <li><a href="video-kyc.html">Video KYC</a></li>
+              <li><a href="partner-life-cycle-management.html">Partner Life Cycle Management</a></li>
+              <li><a href="application-programming-interface.html">Application Programming Interface</a></li>
+            </ul>
+          </div>
+          <div class="clearfix visible-xs-block"></div>
+          <div class="col-xs-6 col-sm-4">
+            <p><strong>Quick links</strong></p>
+            <ul class="list-unstyled">
+              <li><a href="faq.html">FAQ</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="terms.html">Terms &amp; Conditions</a></li>
+              <li  class="contact-link"><a href="contact.html">Contact</a></li>
+              <li><a href="sitemap.html">Sitemap</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 text-left">&copy; 2020 Manch. All rights reserved.</div>
+          <div class="col-sm-6 text-right">
+            <ul class="list-inline">
+              <li><a href="https://twitter.com/manchtechnolog1"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/manch-technologies"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+ <div class="modal fade" id="clientsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body"> </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="demoModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Request a Demo</h4>
+        </div>
+        <div class="modal-body">
+          <p>Please fill out the form below and one of our representatives will be in touch with you.</p>
+          <form id="demoForm" action="<?php echo esc_url( admin_url('admin-post.php') ); ?>" method="post" novalidate>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>How can we help you today?</label>
+              <select class="form-control" name="message">
+                <option>e-Sign</option>
+                <option>e-KYC</option>
+                <option>Video KYC (V-CIP)</option>
+                <option>Onboarding</option>
+                <option>Partner Management</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Name</label>
+              <input type="text" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Company Name</label>
+              <input type="text" class="form-control" name="company">
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Designation</label>
+              <input type="text" class="form-control" name="designation">
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Email Address</label>
+              <input type="text" class="form-control" name="email">
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Contact Number</label>
+              <input type="text" class="form-control" name="phone">
+            </div>
+            <div class="form-group">
+              <label><span class="text-danger">*</span>Comments</label>
+              <textarea class="form-control" name="comments"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="hidden" name="action" value="demo_form">
+              <button type="submit" class="btn btn-danger btn-lg btn-block">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+   <script src="lib/animation/aos.js"></script>
+  <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+     <script src="lib/js/app-1b07685d0e.min.js"></script>
+  <script>
+    $(document).ready(function ($) {
+      AOS.init({
+        duration: 1000
+      });
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000
+      });
+
+      $('#industry').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 5
+          }
+        }
+      });
+
+      $.validator.setDefaults({
+        highlight: function (element) {
+          $(element).closest('.form-group').addClass('has-error');
+        },
+        unhighlight: function (element) {
+          $(element).closest('.form-group').removeClass('has-error');
+        },
+        errorElement: 'span',
+        errorClass: 'help-block',
+        errorPlacement: function (error, element) {
+          if (element.parent('.input-group').length) {
+            error.insertAfter(element.parent());
+          } else {
+            error.insertAfter(element);
+          }
+        }
+      });
+
+      $("#demoForm").validate({
+        rules: {
+          name: {
+            required: true,
+          },
+          company: {
+            required: true,
+          },
+          phone: {
+            required: true,
+          },
+          email: {
+            required: true,
+            email: true
+          },
+          designation: {
+            required: true
+          },
+          message: {
+            required: true
+          },
+          comments: {
+            required: true
+          }
+
+        }
+      });
+
+    });
+  </script>
+</body>
+</html>

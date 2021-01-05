@@ -83,7 +83,7 @@
     <p style="color:#FFF;"> Search smarter </p>
     <p style="color:#FFF; font-style:italic; padding-bottom:20px;"> Check out these popular categories. </p>
     <div class="row">
-      <div class="col-lg-3 col-sm-6">
+      <div class="col-lg-3 col-sm-6 col-xs-6">
         <ul class="list-unstyled fot" >
           <li> <a href="#"> Animal </a></li>
           <li> <a href="#">Drinks </a></li>
@@ -94,7 +94,7 @@
           <li> <a href="#">Technology </a></li>
         </ul>
       </div>
-      <div class="col-lg-3 col-sm-6">
+      <div class="col-lg-3 col-sm-6 col-xs-6">
         <ul class="list-unstyled fot">
           <li> <a href="#"> Buildings and Architecture </a></li>
           <li> <a href="#"> The Environment </a></li>
@@ -105,7 +105,7 @@
           <li> <a href="#">Entertainment </a></li>
         </ul>
       </div>
-      <div class="col-lg-3 col-sm-6">
+      <div class="col-lg-3 col-sm-6 col-xs-6">
         <ul class="list-unstyled fot">
           <li> <a href="#"> Business </a></li>
           <li> <a href="#"> States of Mind </a></li>
@@ -116,7 +116,7 @@
           <li> <a href="#"> Travel </a></li>
         </ul>
       </div>
-      <div class="col-lg-3 col-sm-6 text-center" style="border-left: 1px solid #ccc;"> <img src="../img/footer.png" class="img-responsive center-block" style="height:48px">
+      <div class="col-lg-3 col-sm-6 col-xs-6 text-center" style="border-left: 1px solid #ccc;"> <img src="../img/footer.png" class="img-responsive center-block" style="height:48px">
         <p style="color:#FFF; padding-top:20px;"> Beautiful fonts, anywhere you need them. Find great type for web, print, and beyond with Adobe Fonts. </p>
         <button type="button" class="btn learn"> Learn more </button>
       </div>

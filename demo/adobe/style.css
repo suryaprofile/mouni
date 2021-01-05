@@ -1,6 +1,7 @@
 body {
 	font-family: Helvetica;
 	line-height: 1.42857143;
+	overflow-x: hidden;
 }
 
 @media only screen and (max-width: 600px) {

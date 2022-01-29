@@ -346,6 +346,9 @@ background: linear-gradient(to top, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Fir
 .btm a {
     color: #fff;
 }
+.about_img {
+    border-radius: 20px
+   }
 
 .about .content1 h2 {
     font-weight: 700;
